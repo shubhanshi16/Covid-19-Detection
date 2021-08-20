@@ -17,7 +17,7 @@ def main():
     </div>
     """
     image2='facts.jpg'
-    st.imgae(image,width=None)
+    st.image(image,width=None)
     st.markdown(html_templ,unsafe_allow_html=True)
     st.write("A simple proposal for Covid-19 Diagnosis powered by Deep Learning and Streamlit")
     st.sidebar.image("covid.png",width=300)
