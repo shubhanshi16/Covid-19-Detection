@@ -10,10 +10,10 @@ import tensorflow as tf
 
 def main():
      """Simple Tool for Covid-19 Detection from Chest X-Ray"""
-    html_templ = """
-    <h1 style="color:black">Covid-19 Detection Tool</h1>
-    </div>
-    """
+	html_templ = """
+	<h1 style="color:Black">Covid-19 Detection Tool</h1>
+	</div>
+	"""
     image='covid2.png'
     st.image(image,width=None)
    
