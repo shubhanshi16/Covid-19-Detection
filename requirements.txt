@@ -1,14 +1,10 @@
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1620833114945/work
-Pillow @ file:///C:/ci/pillow_1625663293593/work
-scikit-build @ file:///C:/ci/scikit-build_1610399396343/work
-scikit-image==0.18.1
-scikit-learn @ file:///C:/ci/scikit-learn_1622739500535/work
-scikit-learn-intelex==2021.20210714.120609
-scikit-rf @ file:///tmp/build/80754af9/scikit-rf_1624298598240/work
-streamlit==0.84.2
-tensorboard @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_te/tensorboard_1614593728657/work/tmp_pip_dir
-tensorboard-plugin-wit==1.6.0
+streamlit==0.84.0
+numpy==1.20.3
+Pillow==8.0.0
+urllib3==1.25.10
+pickle5==0.0.11
+scikit-learn==0.24.2
+matplotlib==3.4.2
+seaborn==0.11.1
 tensorflow==2.3.0
-tensorflow-estimator @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_baze37/tensorflow-estimator_1622026529081/work/tensorflow_estimator-2.5.0-py2.py3-none-any.whl
 
