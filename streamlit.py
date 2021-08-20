@@ -12,8 +12,7 @@ def main():
     html_templ = """
     <h1 style="color:black">Covid-19 Detection Tool</h1>
     </div>
-    """
-    image='covid2.png'
+    """image='covid2.png'
     st.image(image,width=None)
    
     image2='facts.jpg'
