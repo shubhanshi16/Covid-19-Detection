@@ -70,9 +70,9 @@ def main():
                     my_bar.progress(percent_complete + 1)
                 # Diagnosis Cases: Covid=0, No-Covid=1
                 if diagnosis == 0:
-                    st.sidebar.error("DIAGNOSIS: COVID-19 ")
+                    st.sidebar.error("DIAGNOSIS: COVID-19 - POSITIVE ")
                 else:
-                    st.sidebar.success("DIAGNOSIS: NO-COVID-19")
+                    st.sidebar.success("DIAGNOSIS: COVID-19 - NEGATIVE")
                 st.warning("This Web App is just a DEMO about Artificial Neural Networks so there is no clinical value in its diagnosis and the author is not a Doctor!")
         else:
             st.subheader("Disclaimer and Info")
