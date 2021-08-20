@@ -14,13 +14,14 @@ def main():
     </div>
     """
     st.markdown(html_templ,unsafe_allow_html=True)
+    st.write("A simple proposal for Covid-19 Diagnosis powered by Deep Learning and Streamlit")
     image='covid2.png'
     st.image(image,width=None)
    
     image2='facts.jpg'
     st.image(image2,width=None)
     
-    st.write("A simple proposal for Covid-19 Diagnosis powered by Deep Learning and Streamlit")
+    
     st.sidebar.image("covid.png",width=300)
     image_file = st.sidebar.file_uploader("Upload an X-Ray Image (jpg, png or jpeg)",type=['jpg','png','jpeg'])
     if image_file is not None:
