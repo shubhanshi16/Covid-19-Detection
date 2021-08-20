@@ -1,10 +1,7 @@
-streamlit==0.84.0
-numpy==1.20.3
-Pillow==8.0.0
-urllib3==1.25.10
-pickle5==0.0.11
+streamlit==0.84.2
+numpy==1.20.2
+Pillow==8.3.1
 scikit-learn==0.24.2
-matplotlib==3.4.2
-seaborn==0.11.1
+matplotlib==3.4.4
 tensorflow==2.3.0
 
