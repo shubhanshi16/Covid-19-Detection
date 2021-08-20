@@ -1,4 +1,3 @@
-Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
 Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
 numpy @ file:///C:/ci/numpy_and_numpy_base_1620833114945/work
 Pillow @ file:///C:/ci/pillow_1625663293593/work
