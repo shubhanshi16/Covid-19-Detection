@@ -9,13 +9,14 @@ import tensorflow as tf
 
 
 def main():
-    image='covid2.png'
-    st.image(image,width=None)
-    """Simple Tool for Covid-19 Detection from Chest X-Ray"""
+     """Simple Tool for Covid-19 Detection from Chest X-Ray"""
     html_templ = """
     <h1 style="color:black">Covid-19 Detection Tool</h1>
     </div>
     """
+    image='covid2.png'
+    st.image(image,width=None)
+   
     image2='facts.jpg'
     st.image(image2,width=None)
     st.markdown(html_templ,unsafe_allow_html=True)
