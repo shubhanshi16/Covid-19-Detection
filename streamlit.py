@@ -47,7 +47,7 @@ def main():
                 st.text("Original Image")
                 st.image(our_image,width=600,use_column_width=True)
         elif choice == 'Diagnosis':
-            if st.sidebar.button("Diagnosis"):
+            if st.sidebar.button("Diagnose"):
                 # Image to Black and White
                 new_img = np.array(our_image.convert('RGB')) 
                 #our image is binary we have to convert it in array
@@ -85,8 +85,8 @@ def main():
             st.write("- [Covid 19 Detection Using CNN](https://www.youtube.com/watch?v=nHQDDAAzIsI)")
             st.write("- [Covid 19 Detector tool](https://github.com/rosariomoscato/covid19-detection-tool)")
             
-        if st.sidebar.button("About the Author"):
-            st.sidebar.subheader("Covid-19 Detection Tool")
+        
+            
         st.sidebar.text("All Rights Reserved (2020)")
 
 
