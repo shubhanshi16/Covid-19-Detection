@@ -1,0 +1,1 @@
+This file gives complete info about the project
